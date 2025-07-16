@@ -1,7 +1,7 @@
 # XRP Gumball Rewards
 
 A fun, interactive HTML-based website that lets users spin a virtual gumball machine to learn facts about XRP. Built with HTML, CSS, and JavaScript, it includes a live XRP price feed, sound effects, a leaderboard, and a retro arcade aesthetic.
-
+https://GhostOfSups.github.io/Gumball
 ## Features
 - **Interactive Gumball Machine**: Click "Insert Coin" to spin and receive a random XRP fact.
 - **XRP Price Feed**: Displays real-time XRP price using CoinGecko API.
