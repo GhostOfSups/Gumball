@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>XRP Gumball Rewards</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>XRP Gumball Rewards</h1>
+    <p>Spin the gumball machine to learn fun facts about XRP!</p>
+  </header>
+  <main>
+    <section id="gumball-machine">
+      <img src="images/gumball-machine.jpg" alt="Gumball Machine" id="gumball-img">
+      <button onclick="spinMachine()" id="spin-button">Insert Coin</button>
+      <div id="reward-display">Spin to discover an XRP fact!</div>
+    </section>
+    <section id="xrp-info">
+      <h2>XRP Price: <span id="xrp-price">Loading...</span></h2>
+      <div id="wallet">Your Points: <span id="points">0</span> <button onclick="resetPoints()" id="reset-button">Reset Points</button></div>
+      <div id="leaderboard">
+        <h2>Leaderboard</h2>
+        <ul id="leaderboard-list"></ul>
+      </div>
+    </section>
+    <section id="why-xrp">
+      <h2>Why XRP?</h2>
+      <div class="xrp-facts">
+        <div class="fact-card">
+          <h3>Fast Transactions</h3>
+          <p>XRP transactions settle in 3-5 seconds, making it ideal for cross-border payments.</p>
+        </div>
+        <div class="fact-card">
+          <h3>Low Fees</h3>
+          <p>XRP's transaction fees are typically less than a cent, unlike traditional banking systems.</p>
+        </div>
+        <div class="fact-card">
+          <h3>Decentralized Ledger</h3>
+          <p>XRP runs on the XRP Ledger, a decentralized blockchain maintained by a global network.</p>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer>
+    <p>Built with ❤️ for XRP fans | <a href="https://xrpl.org" target="_blank">Learn more about XRP</a> Tip the Dev some XRP!: rQERimqpZebP1Knt3BCMZHDMJWZ7u6ZBuW</p>
+  </footer>
+  <audio id="coin-sound" src="sounds/coin-clank.mp3"></audio>
+  <audio id="gumball-sound" src="sounds/gumball-drop.mp3"></audio>
+  <script src="script.js"></script>
+</body>
+</html>

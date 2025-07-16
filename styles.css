@@ -1,0 +1,171 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f0f4f8;
+  color: #333;
+  text-align: center;
+}
+
+header {
+  background-color: #1a73e8;
+  color: white;
+  padding: 1rem;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 2.5rem;
+}
+
+header p {
+  margin: 0.5rem 0;
+}
+
+#gumball-machine {
+  margin: 2rem auto;
+}
+
+#gumball-img {
+  width: 200px;
+  height: auto;
+  transition: transform 0.3s;
+}
+
+#gumball-img.spin {
+  transform: rotate(10deg);
+}
+
+#spin-button {
+  background-color: #ff4444;
+  color: white;
+  border: none;
+  padding: 1rem 2rem;
+  font-size: 1.2rem;
+  cursor: pointer;
+  border-radius: 5px;
+  margin: 1rem;
+}
+
+#spin-button:hover {
+  background-color: #cc0000;
+}
+
+#reward-display {
+  font-size: 1.2rem;
+  margin: 1rem;
+  padding: 1rem;
+  background-color: #fff;
+  border: 2px solid #1a73e8;
+  border-radius: 10px;
+  min-height: 50px;
+}
+
+#xrp-info {
+  margin: 2rem;
+}
+
+#xrp-info h2 {
+  font-size: 1.5rem;
+}
+
+#wallet {
+  margin: 1rem;
+  font-size: 1.2rem;
+}
+
+#reset-button {
+  background-color: #666;
+  color: white;
+  border: none;
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  cursor: pointer;
+  border-radius: 5px;
+  margin-left: 1rem;
+}
+
+#reset-button:hover {
+  background-color: #444;
+}
+
+#leaderboard {
+  margin: 2rem;
+}
+
+#leaderboard-list {
+  list-style: none;
+  padding: 0;
+  max-width: 300px;
+  margin: 1rem auto;
+}
+
+#leaderboard-list li {
+  background-color: #e8f0fe;
+  padding: 0.5rem;
+  margin: 0.5rem 0;
+  border-radius: 5px;
+}
+
+#why-xrp {
+  padding: 2rem;
+  background-color: #fff;
+}
+
+.xrp-facts {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.fact-card {
+  background-color: #e8f0fe;
+  padding: 1rem;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.fact-card h3 {
+  margin: 0.5rem 0;
+  color: #1a73e8;
+}
+
+footer {
+  background-color: #1a73e8;
+  color: white;
+  padding: 6px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+footer a {
+  color: #ffd700;
+  text-decoration: none;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+
+@media (max-width: 600px) {
+  header h1 {
+    font-size: 1.8rem;
+  }
+
+  #gumball-img {
+    width: 150px;
+  }
+
+  #spin-button {
+    padding: 0.8rem 1.5rem;
+    font-size: 1rem;
+  }
+
+  #reset-button {
+    padding: 0.4rem 0.8rem;
+    font-size: 0.9rem;
+  }
+}
